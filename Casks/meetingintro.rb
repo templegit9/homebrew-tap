@@ -1,6 +1,6 @@
 cask "meetingintro" do
-  version "2.1.0"
-  sha256 "07818710de423762b63d6dc2e7600c9c0d167682b1e872a17c1d5886b4aea7fb"
+  version "2.1.1"
+  sha256 "be32ff806531b29405975aa628b1cdf7e41a85d210279888e841b9a167d1517f"
 
   url "https://github.com/templegit9/MeetingIntro/releases/download/v#{version}/MeetingIntro-#{version}.zip"
   name "MeetingIntro"
