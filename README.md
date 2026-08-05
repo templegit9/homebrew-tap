@@ -14,8 +14,13 @@ brew tap templegit9/tap
 | `speech2terminal` | Dictation straight into the terminal |
 
 ```sh
+brew trust --cask templegit9/tap/bridge-ledger
 brew install --cask bridge-ledger
 ```
+
+Homebrew 6 refuses to load a cask from a third-party tap until it is trusted,
+and trust is recorded per cask rather than per tap — so each of the casks here
+needs its own `brew trust` line.
 
 The app is called Bridge; the cask token is `bridge-ledger` because
 homebrew-cask already has a `bridge` (Quixel Bridge), and a matching name is
