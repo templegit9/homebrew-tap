@@ -13,7 +13,7 @@ cask "bridge" do
   homepage "https://github.com/templegit9/homebrew-tap"
 
   # Package.swift targets macOS 14.
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Bridge.app"
 
