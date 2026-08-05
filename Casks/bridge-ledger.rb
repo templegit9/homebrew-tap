@@ -1,6 +1,14 @@
-cask "bridge" do
+cask "bridge-ledger" do
   version "0.1.0"
   sha256 "3931d8f179884634e14cd947578f92ae99cac186f4af0eacf322d8cbe092a0b3"
+
+  # Token is `bridge-ledger`, app is `Bridge.app`.
+  #
+  # homebrew-cask already has a `bridge` — Quixel Bridge, a 3D asset manager —
+  # and the bare token resolves to that one. Keeping the obvious name here would
+  # have meant every install command needed the full `templegit9/tap/bridge`,
+  # and anyone typing the short form from memory would silently get unrelated
+  # software. A distinct token is worth more than a matching one.
 
   # Hosted on this tap rather than on the source repo, which is private.
   # A cask downloads over plain HTTPS with no credentials, so a release asset
