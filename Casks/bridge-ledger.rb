@@ -1,6 +1,6 @@
 cask "bridge-ledger" do
-  version "0.4.0"
-  sha256 "5aab04d09f9ac1304991f65e744e87fbbcd1f3f4db871fcfb2b523446bef24aa"
+  version "0.5.0"
+  sha256 "3914db6cf3327f4c5e34c9bb2f0bae674240bb990467ffb6e42c00a60508d698"
 
   # Token is `bridge-ledger`, app is `Bridge.app`.
   #
